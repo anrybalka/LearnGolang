@@ -69,5 +69,11 @@ func main() {
 	fmt.Println(str16 + " World!") //Hello World!
 	//str16[0] = "h" // ошибка
 
-	//составные array, map, struct
+	isBig1 := "aba" > "abc" //false
+	fmt.Println(isBig1)     //false
+	isBig2 := "aba" < "abc" //true
+	fmt.Println(isBig2)     //true
+	isEq1 := "aba" == "abc" //false
+	fmt.Println(isEq1)      //false
+
 }
